@@ -1,0 +1,3172 @@
+{
+"builtAt": "2026-10-20 18:05 KST",
+"krxDate": "2026-10-20",
+"usDate": "2026-10-19",
+"quotes": [
+{
+"id": "KOSPI",
+"name": "코스피",
+"group": "KR",
+"value": 5552.74,
+"chg": -215.27,
+"chgPct": -3.73,
+"digits": 2,
+"unit": "",
+"at": "2026-10-20 마감",
+"note": "네이버 금융"
+},
+{
+"id": "KOSDAQ",
+"name": "코스닥",
+"group": "KR",
+"value": 781.97,
+"chg": -26.92,
+"chgPct": -3.33,
+"digits": 2,
+"unit": "",
+"at": "2026-10-20 마감",
+"note": "네이버 금융"
+},
+{
+"id": "DJI",
+"name": "다우",
+"group": "US",
+"value": 51966.03,
+"chg": -36.38,
+"chgPct": -0.07,
+"digits": 2,
+"unit": "",
+"at": "2026-10-20 05:44 KST",
+"note": "Yahoo Finance"
+},
+{
+"id": "SPX",
+"name": "S&P 500",
+"group": "US",
+"value": 7690.73,
+"chg": 31.29,
+"chgPct": 0.41,
+"digits": 2,
+"unit": "",
+"at": "2026-10-20 05:44 KST",
+"note": "Yahoo Finance"
+},
+{
+"id": "IXIC",
+"name": "나스닥",
+"group": "US",
+"value": 26430.89,
+"chg": 290.858,
+"chgPct": 1.11,
+"digits": 2,
+"unit": "",
+"at": "2026-10-20 06:15 KST",
+"note": "Yahoo Finance"
+},
+{
+"id": "SOX",
+"name": "필라델피아 반도체",
+"group": "US",
+"value": 11316.34,
+"chg": 179.053,
+"chgPct": 1.61,
+"digits": 2,
+"unit": "",
+"at": "2026-10-20 06:15 KST",
+"note": "Yahoo Finance"
+},
+{
+"id": "VIX",
+"name": "VIX(공포지수)",
+"group": "VOL",
+"value": 18.64,
+"chg": 0.2,
+"chgPct": 1.08,
+"digits": 2,
+"unit": "",
+"at": "2026-10-20 17:50 KST",
+"note": "Yahoo Finance"
+},
+{
+"id": "USDKRW",
+"name": "원·달러",
+"group": "FX",
+"value": 1326.92,
+"chg": -6.51,
+"chgPct": -0.49,
+"digits": 2,
+"unit": "원",
+"at": "2026-10-20 18:05 KST",
+"note": "Yahoo Finance"
+},
+{
+"id": "WTI",
+"name": "WTI 유가",
+"group": "CMD",
+"value": 100.16,
+"chg": -3.5,
+"chgPct": -3.38,
+"digits": 2,
+"unit": "$",
+"at": "2026-10-20 17:55 KST",
+"note": "Yahoo Finance"
+},
+{
+"id": "US10Y",
+"name": "미 국채 10년",
+"group": "RATE",
+"value": 5.136,
+"chg": 0.038,
+"chgPct": null,
+"digits": 3,
+"unit": "%",
+"at": "2026-10-20 03:59 KST",
+"note": "Yahoo Finance"
+},
+{
+"at": "10/19",
+"chg": null,
+"chgPct": null,
+"digits": 3,
+"group": "RATE",
+"id": "US2Y",
+"name": "미 국채 2년",
+"note": "스톡플러스",
+"unit": "%",
+"value": 4.772
+},
+{
+"at": "10/19 마감",
+"chg": 0.023,
+"chgDigits": 3,
+"chgPct": null,
+"digits": 3,
+"group": "RATE",
+"id": "KR3Y",
+"name": "국고채 3년",
+"note": "10년 4.205% · 기준금리 3.00%",
+"unit": "%",
+"value": 3.877
+},
+{
+"id": "GOLD",
+"name": "금",
+"group": "CMD",
+"value": 4138.5,
+"chg": -21.6,
+"chgPct": -0.52,
+"digits": 1,
+"unit": "$",
+"at": "2026-10-20 17:55 KST",
+"note": "Yahoo Finance"
+}
+],
+"universe": {
+"total": 2722,
+"kospi": 932,
+"kosdaq": 1735,
+"krxDate": "2026-10-20",
+"krxNewest": "2026-10-20",
+"usDate": "2026-10-19",
+"builtAt": "2026-10-20 18:05 KST"
+},
+"items": [
+{
+"code": "055550",
+"name": "신한지주",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 91200,
+"chgPct": -2.2508038585209,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 43.85,
+"ai": {
+"stance": "반등 관찰",
+"score": 72,
+"buy": [
+87800,
+89500
+],
+"targets": [
+99600,
+104600
+],
+"stop": 86200,
+"rr": 4.33
+},
+"t": {
+"rsi": 8.3,
+"dd20": -20.28,
+"chg5": -8.53,
+"chg20": -18.64,
+"ma20": 103460.0,
+"volRatio": 0.78
+}
+},
+{
+"code": "009540",
+"name": "HD한국조선해양",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 252500,
+"chgPct": -6.998158379373853,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 18.75,
+"ai": {
+"stance": "반등 관찰",
+"score": 69,
+"buy": [
+239000,
+245500
+],
+"targets": [
+286500,
+306500
+],
+"stop": 232000,
+"rr": 4.33
+},
+"t": {
+"rsi": 5.1,
+"dd20": -28.77,
+"chg5": -10.46,
+"chg20": -25.52,
+"ma20": 309400.0,
+"volRatio": 0.82
+}
+},
+{
+"code": "267270",
+"name": "HD건설기계",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 88800,
+"chgPct": -5.632306057385761,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 4.37,
+"ai": {
+"stance": "반등 관찰",
+"score": 67,
+"buy": [
+82800,
+85800
+],
+"targets": [
+103900,
+112900
+],
+"stop": 79800,
+"rr": 4.33
+},
+"t": {
+"rsi": 1.4,
+"dd20": -39.09,
+"chg5": -13.62,
+"chg20": -33.98,
+"ma20": 117650.0,
+"volRatio": 0.75
+}
+},
+{
+"code": "241560",
+"name": "두산밥캣",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 50500,
+"chgPct": -2.131782945736438,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 4.88,
+"ai": {
+"stance": "반등 관찰",
+"score": 67,
+"buy": [
+48700,
+49600
+],
+"targets": [
+55000,
+57700
+],
+"stop": 47800,
+"rr": 4.33
+},
+"t": {
+"rsi": 15.4,
+"dd20": -18.02,
+"chg5": -3.99,
+"chg20": -15.83,
+"ma20": 55165.0,
+"volRatio": 0.79
+}
+},
+{
+"code": "034020",
+"name": "두산에너빌리티",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 62300,
+"chgPct": -6.456456456456461,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 41.38,
+"ai": {
+"stance": "반등 관찰",
+"score": 66,
+"buy": [
+58700,
+60500
+],
+"targets": [
+71400,
+76800
+],
+"stop": 56800,
+"rr": 4.33
+},
+"t": {
+"rsi": 15.6,
+"dd20": -29.28,
+"chg5": -12.87,
+"chg20": -27.73,
+"ma20": 77770.0,
+"volRatio": 0.73
+}
+},
+{
+"code": "086790",
+"name": "하나금융지주",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 121500,
+"chgPct": -1.7784963621665373,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 33.19,
+"ai": {
+"stance": "반등 관찰",
+"score": 66,
+"buy": [
+118300,
+119600
+],
+"targets": [
+129400,
+137000
+],
+"stop": 116400,
+"rr": 4.09
+},
+"t": {
+"rsi": 21.0,
+"dd20": -13.34,
+"chg5": -2.33,
+"chg20": -11.7,
+"ma20": 129440.0,
+"volRatio": 1.01
+}
+},
+{
+"code": "010130",
+"name": "고려아연",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 916000,
+"chgPct": -8.308308308308309,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 19.75,
+"ai": {
+"stance": "반등 관찰",
+"score": 66,
+"buy": [
+875000,
+896000
+],
+"targets": [
+1018000,
+1079000
+],
+"stop": 855000,
+"rr": 4.33
+},
+"t": {
+"rsi": 17.5,
+"dd20": -20.97,
+"chg5": -9.22,
+"chg20": -19.51,
+"ma20": 1056400.0,
+"volRatio": 1.22
+}
+},
+{
+"code": "003490",
+"name": "대한항공",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 26100,
+"chgPct": -3.690036900369009,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 9.7,
+"ai": {
+"stance": "반등 관찰",
+"score": 66,
+"buy": [
+24850,
+25500
+],
+"targets": [
+29150,
+31000
+],
+"stop": 24250,
+"rr": 4.33
+},
+"t": {
+"rsi": 19.7,
+"dd20": -19.69,
+"chg5": -16.08,
+"chg20": -11.07,
+"ma20": 30137.5,
+"volRatio": 0.85
+}
+},
+{
+"code": "375500",
+"name": "DL이앤씨",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 56600,
+"chgPct": -5.509181969949917,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 2.31,
+"ai": {
+"stance": "반등 관찰",
+"score": 66,
+"buy": [
+53000,
+54800
+],
+"targets": [
+65600,
+71000
+],
+"stop": 51200,
+"rr": 4.33
+},
+"t": {
+"rsi": 5.8,
+"dd20": -37.39,
+"chg5": -11.84,
+"chg20": -36.69,
+"ma20": 73815.0,
+"volRatio": 0.43
+}
+},
+{
+"code": "005935",
+"name": "삼성전자우",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 164100,
+"chgPct": -3.978935049736687,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 134.16,
+"ai": {
+"stance": "반등 관찰",
+"score": 65,
+"buy": [
+154400,
+158900
+],
+"targets": [
+190200,
+206000
+],
+"stop": 149200,
+"rr": 4.49
+},
+"t": {
+"rsi": 19.2,
+"dd20": -25.41,
+"chg5": -12.15,
+"chg20": -12.29,
+"ma20": 192525.0,
+"volRatio": 0.69
+}
+},
+{
+"code": "329180",
+"name": "HD현대중공업",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 315000,
+"chgPct": -8.827785817655576,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 36.89,
+"ai": {
+"stance": "반등 관찰",
+"score": 65,
+"buy": [
+297000,
+306000
+],
+"targets": [
+360500,
+387500
+],
+"stop": 287500,
+"rr": 4.33
+},
+"t": {
+"rsi": 6.2,
+"dd20": -34.03,
+"chg5": -13.82,
+"chg20": -30.54,
+"ma20": 410175.0,
+"volRatio": 1.9
+}
+},
+{
+"code": "267250",
+"name": "HD현대",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 147900,
+"chgPct": -7.214554579673782,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 12.43,
+"ai": {
+"stance": "반등 관찰",
+"score": 65,
+"buy": [
+138600,
+143200
+],
+"targets": [
+171200,
+185200
+],
+"stop": 133900,
+"rr": 4.33
+},
+"t": {
+"rsi": 10.9,
+"dd20": -34.85,
+"chg5": -13.51,
+"chg20": -34.27,
+"ma20": 190565.0,
+"volRatio": 0.93
+}
+},
+{
+"code": "017670",
+"name": "SK텔레콤",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 76700,
+"chgPct": -2.292993630573248,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 16.84,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+73600,
+75100
+],
+"targets": [
+84600,
+89300
+],
+"stop": 72000,
+"rr": 4.33
+},
+"t": {
+"rsi": 27.0,
+"dd20": -14.68,
+"chg5": -3.76,
+"chg20": -12.84,
+"ma20": 84820.0,
+"volRatio": 0.93
+}
+},
+{
+"code": "071050",
+"name": "한국금융지주",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 150200,
+"chgPct": -4.452926208651398,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 8.46,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+142200,
+146400
+],
+"targets": [
+169000,
+180300
+],
+"stop": 138400,
+"rr": 4.2
+},
+"t": {
+"rsi": 18.8,
+"dd20": -22.26,
+"chg5": -9.3,
+"chg20": -21.44,
+"ma20": 173165.0,
+"volRatio": 1.24
+}
+},
+{
+"code": "016360",
+"name": "삼성증권",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 78000,
+"chgPct": -2.8642590286425906,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 7.05,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+74800,
+76300
+],
+"targets": [
+85700,
+91500
+],
+"stop": 73100,
+"rr": 4.14
+},
+"t": {
+"rsi": 21.6,
+"dd20": -16.13,
+"chg5": -5.8,
+"chg20": -10.24,
+"ma20": 85685.0,
+"volRatio": 0.81
+}
+},
+{
+"code": "002380",
+"name": "KCC",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 389000,
+"chgPct": -9.218203033838979,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 3.68,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+370500,
+380000
+],
+"targets": [
+434500,
+462000
+],
+"stop": 361500,
+"rr": 4.33
+},
+"t": {
+"rsi": 18.5,
+"dd20": -20.21,
+"chg5": -14.6,
+"chg20": -17.23,
+"ma20": 457025.0,
+"volRatio": 1.47
+}
+},
+{
+"code": "088350",
+"name": "한화생명",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 4615,
+"chgPct": -3.7539103232533844,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 4.12,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+4385,
+4500
+],
+"targets": [
+5190,
+5540
+],
+"stop": 4270,
+"rr": 4.33
+},
+"t": {
+"rsi": 18.5,
+"dd20": -26.28,
+"chg5": -9.69,
+"chg20": -22.7,
+"ma20": 5353.5,
+"volRatio": 0.57
+}
+},
+{
+"code": "017800",
+"name": "현대엘리베이터",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 68600,
+"chgPct": -2.6950354609929117,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 2.71,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+67700,
+67700
+],
+"targets": [
+72000,
+74800
+],
+"stop": 66800,
+"rr": 4.85
+},
+"t": {
+"rsi": 24.8,
+"dd20": -8.29,
+"chg5": -1.86,
+"chg20": -6.16,
+"ma20": 72030.0,
+"volRatio": 1.03
+}
+},
+{
+"code": "006360",
+"name": "GS건설",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 28050,
+"chgPct": -2.772963604852685,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 2.44,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+26400,
+27250
+],
+"targets": [
+32150,
+34600
+],
+"stop": 25600,
+"rr": 4.33
+},
+"t": {
+"rsi": 18.0,
+"dd20": -28.72,
+"chg5": -6.81,
+"chg20": -25.79,
+"ma20": 33012.5,
+"volRatio": 0.48
+}
+},
+{
+"code": "103140",
+"name": "풍산",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 61200,
+"chgPct": -5.409582689335391,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 1.74,
+"ai": {
+"stance": "반등 관찰",
+"score": 64,
+"buy": [
+58000,
+59600
+],
+"targets": [
+69200,
+74000
+],
+"stop": 56400,
+"rr": 4.33
+},
+"t": {
+"rsi": 15.2,
+"dd20": -24.35,
+"chg5": -4.82,
+"chg20": -19.58,
+"ma20": 72280.0,
+"volRatio": 0.97
+}
+},
+{
+"code": "010140",
+"name": "삼성중공업",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 17280,
+"chgPct": -5.573770491803276,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 16.19,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+16440,
+16860
+],
+"targets": [
+19370,
+20600
+],
+"stop": 16030,
+"rr": 4.33
+},
+"t": {
+"rsi": 27.4,
+"dd20": -20.73,
+"chg5": -4.05,
+"chg20": -16.52,
+"ma20": 19501.5,
+"volRatio": 1.01
+}
+},
+{
+"code": "004170",
+"name": "신세계",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 269500,
+"chgPct": -8.177172061328786,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 2.6,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+260000,
+262500
+],
+"targets": [
+305000,
+326500
+],
+"stop": 253000,
+"rr": 5.29
+},
+"t": {
+"rsi": 10.7,
+"dd20": -29.45,
+"chg5": -11.35,
+"chg20": -26.77,
+"ma20": 323700.0,
+"volRatio": 1.34
+}
+},
+{
+"code": "138930",
+"name": "BNK금융지주",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 14370,
+"chgPct": -1.642710472279263,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 4.48,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 63,
+"buy": [
+14020,
+14100
+],
+"targets": [
+15520,
+16570
+],
+"stop": 13740,
+"rr": 4.68
+},
+"t": {
+"rsi": 30.0,
+"dd20": -13.59,
+"chg5": -5.02,
+"chg20": -10.41,
+"ma20": 15521.5,
+"volRatio": 0.4
+}
+},
+{
+"code": "069960",
+"name": "현대백화점",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 78000,
+"chgPct": -8.558030480656509,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 1.71,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+74200,
+76000
+],
+"targets": [
+88000,
+94000
+],
+"stop": 72200,
+"rr": 4.45
+},
+"t": {
+"rsi": 11.3,
+"dd20": -23.38,
+"chg5": -7.58,
+"chg20": -20.57,
+"ma20": 89190.0,
+"volRatio": 0.64
+}
+},
+{
+"code": "004800",
+"name": "효성",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 119000,
+"chgPct": -3.9548022598870025,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 2.07,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+115100,
+115500
+],
+"targets": [
+136400,
+146900
+],
+"stop": 111600,
+"rr": 5.72
+},
+"t": {
+"rsi": 13.8,
+"dd20": -29.25,
+"chg5": -14.76,
+"chg20": -22.58,
+"ma20": 148915.0,
+"volRatio": 1.03
+}
+},
+{
+"code": "032820",
+"name": "우리기술",
+"market": "코스닥",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스닥",
+"flag": "",
+"price": 9870,
+"chgPct": -5.09615384615385,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 1.75,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+9240,
+9560
+],
+"targets": [
+11440,
+12370
+],
+"stop": 8930,
+"rr": 4.33
+},
+"t": {
+"rsi": 18.1,
+"dd20": -33.27,
+"chg5": -10.11,
+"chg20": -25.28,
+"ma20": 12053.0,
+"volRatio": 0.41
+}
+},
+{
+"code": "000670",
+"name": "영풍",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 32750,
+"chgPct": -4.518950437317781,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 0.62,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+30900,
+31800
+],
+"targets": [
+37400,
+40200
+],
+"stop": 29950,
+"rr": 4.33
+},
+"t": {
+"rsi": 15.4,
+"dd20": -33.84,
+"chg5": -14.04,
+"chg20": -35.15,
+"ma20": 40577.5,
+"volRatio": 0.52
+}
+},
+{
+"code": "006340",
+"name": "대원전선",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 10320,
+"chgPct": -4.972375690607733,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 0.85,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+9710,
+10010
+],
+"targets": [
+11850,
+12770
+],
+"stop": 9400,
+"rr": 4.33
+},
+"t": {
+"rsi": 18.5,
+"dd20": -29.56,
+"chg5": -11.11,
+"chg20": -18.87,
+"ma20": 12534.5,
+"volRatio": 0.36
+}
+},
+{
+"code": "005930",
+"name": "삼성전자",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 210000,
+"chgPct": -3.669724770642202,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 1259.87,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 62,
+"buy": [
+204500,
+205500
+],
+"targets": [
+242500,
+261500
+],
+"stop": 198300,
+"rr": 5.71
+},
+"t": {
+"rsi": 18.8,
+"dd20": -26.44,
+"chg5": -9.48,
+"chg20": -17.16,
+"ma20": 254150.0,
+"volRatio": 0.83
+}
+},
+{
+"code": "000720",
+"name": "현대건설",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 90900,
+"chgPct": -4.214963119072712,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 10.45,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+84600,
+87700
+],
+"targets": [
+106700,
+116200
+],
+"stop": 81400,
+"rr": 4.33
+},
+"t": {
+"rsi": 16.3,
+"dd20": -33.21,
+"chg5": -9.28,
+"chg20": -29.04,
+"ma20": 112385.0,
+"volRatio": 0.57
+}
+},
+{
+"code": "047810",
+"name": "한국항공우주",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 108800,
+"chgPct": -6.689536878216118,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 10.57,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+103600,
+106100
+],
+"targets": [
+122400,
+130500
+],
+"stop": 100900,
+"rr": 4.43
+},
+"t": {
+"rsi": 28.5,
+"dd20": -18.99,
+"chg5": -5.8,
+"chg20": -15.66,
+"ma20": 122530.0,
+"volRatio": 0.93
+}
+},
+{
+"code": "180640",
+"name": "한진칼",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 118000,
+"chgPct": -3.2786885245901676,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 7.8,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+111900,
+114900
+],
+"targets": [
+132900,
+142400
+],
+"stop": 108800,
+"rr": 4.25
+},
+"t": {
+"rsi": 20.2,
+"dd20": -17.94,
+"chg5": -10.54,
+"chg20": -14.55,
+"ma20": 132880.0,
+"volRatio": 0.7
+}
+},
+{
+"code": "377300",
+"name": "카카오페이",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 35600,
+"chgPct": -3.653585926928282,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 4.84,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+33900,
+34900
+],
+"targets": [
+39000,
+41150
+],
+"stop": 33200,
+"rr": 3.83
+},
+"t": {
+"rsi": 24.1,
+"dd20": -18.16,
+"chg5": -5.82,
+"chg20": -22.19,
+"ma20": 38977.5,
+"volRatio": 0.46
+}
+},
+{
+"code": "052690",
+"name": "한전기술",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 96400,
+"chgPct": -7.039537126325945,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 3.85,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+89600,
+93000
+],
+"targets": [
+113300,
+123400
+],
+"stop": 86300,
+"rr": 4.33
+},
+"t": {
+"rsi": 16.5,
+"dd20": -34.73,
+"chg5": -14.08,
+"chg20": -32.96,
+"ma20": 121690.0,
+"volRatio": 0.24
+}
+},
+{
+"code": "214450",
+"name": "파마리서치",
+"market": "코스닥",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스닥",
+"flag": "",
+"price": 264500,
+"chgPct": -4.684684684684681,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 2.89,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+251500,
+257000
+],
+"targets": [
+302000,
+324500
+],
+"stop": 244000,
+"rr": 4.66
+},
+"t": {
+"rsi": 23.6,
+"dd20": -25.7,
+"chg5": -10.94,
+"chg20": -21.51,
+"ma20": 304300.0,
+"volRatio": 0.43
+}
+},
+{
+"code": "051600",
+"name": "한전KPS",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 41100,
+"chgPct": -3.5211267605633756,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 1.88,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+39650,
+40400
+],
+"targets": [
+44550,
+46850
+],
+"stop": 38950,
+"rr": 4.22
+},
+"t": {
+"rsi": 27.3,
+"dd20": -14.29,
+"chg5": -3.97,
+"chg20": -13.66,
+"ma20": 44562.5,
+"volRatio": 0.59
+}
+},
+{
+"code": "001510",
+"name": "SK증권",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 1941,
+"chgPct": -2.9014507253626864,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 0.46,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+1890,
+1895
+],
+"targets": [
+2180,
+2325
+],
+"stop": 1840,
+"rr": 5.84
+},
+"t": {
+"rsi": 24.0,
+"dd20": -21.89,
+"chg5": -8.87,
+"chg20": -17.4,
+"ma20": 2224.4,
+"volRatio": 0.94
+}
+},
+{
+"code": "005090",
+"name": "SGC에너지",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 38150,
+"chgPct": -5.099502487562191,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 0.58,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+35600,
+36900
+],
+"targets": [
+44500,
+48300
+],
+"stop": 34350,
+"rr": 4.33
+},
+"t": {
+"rsi": 13.1,
+"dd20": -32.6,
+"chg5": -12.7,
+"chg20": -31.01,
+"ma20": 47260.0,
+"volRatio": 0.79
+}
+},
+{
+"code": "035420",
+"name": "NAVER",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 177800,
+"chgPct": -2.788408966648437,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 27.38,
+"ai": {
+"stance": "반등 관찰",
+"score": 61,
+"buy": [
+171100,
+175100
+],
+"targets": [
+189700,
+199700
+],
+"stop": 168400,
+"rr": 3.53
+},
+"t": {
+"rsi": 29.1,
+"dd20": -12.63,
+"chg5": -1.5,
+"chg20": -13.69,
+"ma20": 189730.0,
+"volRatio": 0.63
+}
+},
+{
+"code": "042660",
+"name": "한화오션",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 58800,
+"chgPct": -8.41121495327103,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 19.92,
+"ai": {
+"stance": "반등 관찰",
+"score": 61,
+"buy": [
+55300,
+57100
+],
+"targets": [
+67500,
+72700
+],
+"stop": 53600,
+"rr": 4.33
+},
+"t": {
+"rsi": 13.4,
+"dd20": -30.58,
+"chg5": -12.63,
+"chg20": -28.64,
+"ma20": 74840.0,
+"volRatio": 1.61
+}
+},
+{
+"code": "QQQ",
+"name": "인베스코 QQQ",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 718.36,
+"chgPct": 1.2059735136658256,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 57,
+"buy": [
+707.23,
+712.98
+],
+"targets": [
+741.36,
+761.39
+],
+"stop": 701.85,
+"rr": 3.79
+},
+"t": {
+"rsi": 38.8,
+"dd20": -5.83,
+"chg5": -3.71,
+"chg20": -3.12,
+"ma20": 741.3635,
+"volRatio": 1.03
+}
+},
+{
+"code": "AAPL",
+"name": "애플",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 342.94,
+"chgPct": -0.15140045420135584,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 52,
+"buy": [
+333.31,
+339.73
+],
+"targets": [
+352.57,
+358.98
+],
+"stop": 322.6,
+"rr": 1.15
+},
+"t": {
+"rsi": 71.8,
+"dd20": -1.5,
+"chg5": 0.58,
+"chg20": 1.17,
+"ma20": 337.62199999999996,
+"volRatio": 0.93
+}
+},
+{
+"code": "AVGO",
+"name": "브로드컴",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 334.59,
+"chgPct": 1.7764258555132972,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 58,
+"buy": [
+328.58,
+328.72
+],
+"targets": [
+353.99,
+380.84
+],
+"stop": 322.71,
+"rr": 4.27
+},
+"t": {
+"rsi": 40.3,
+"dd20": -12.14,
+"chg5": -5.68,
+"chg20": -7.74,
+"ma20": 353.9905,
+"volRatio": 0.78
+}
+},
+{
+"code": "VOO",
+"name": "뱅가드 S&P500 ETF",
+"market": "NYSE Arca",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 704.6,
+"chgPct": 0.42616268297202,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 48,
+"buy": [
+697.47,
+701.35
+],
+"targets": [
+708.91,
+718.47
+],
+"stop": 694.22,
+"rr": 1.83
+},
+"t": {
+"rsi": 52.3,
+"dd20": -1.93,
+"chg5": -1.47,
+"chg20": -1.15,
+"ma20": 708.9055000000001,
+"volRatio": 0.74
+}
+},
+{
+"code": "IWM",
+"name": "iShares 러셀2000",
+"market": "NYSE Arca",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 271.28,
+"chgPct": 0.310604940097603,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 56,
+"buy": [
+267.42,
+269.35
+],
+"targets": [
+278.6,
+286.73
+],
+"stop": 265.49,
+"rr": 3.53
+},
+"t": {
+"rsi": 37.3,
+"dd20": -6.11,
+"chg5": -2.38,
+"chg20": -5.01,
+"ma20": 278.59599999999995,
+"volRatio": 0.75
+}
+},
+{
+"code": "SOXX",
+"name": "iShares 반도체 ETF",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 501.93,
+"chgPct": 1.7308822635237808,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "반등 관찰",
+"score": 65,
+"buy": [
+492.83,
+493.29
+],
+"targets": [
+545.12,
+571.04
+],
+"stop": 484.19,
+"rr": 5.87
+},
+"t": {
+"rsi": 24.2,
+"dd20": -15.85,
+"chg5": -7.88,
+"chg20": -10.26,
+"ma20": 557.1004999999999,
+"volRatio": 1.24
+}
+},
+{
+"code": "DIA",
+"name": "SPDR 다우 ETF",
+"market": "NYSE Arca",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 518.92,
+"chgPct": -0.03467539973031064,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 53,
+"buy": [
+511.19,
+516.34
+],
+"targets": [
+526.65,
+531.8
+],
+"stop": 502.12,
+"rr": 1.11
+},
+"t": {
+"rsi": 59.8,
+"dd20": -1.18,
+"chg5": 0.2,
+"chg20": -0.17,
+"ma20": 514.6020000000001,
+"volRatio": 0.73
+}
+},
+{
+"code": "COIN",
+"name": "코인베이스",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 168.45,
+"chgPct": -2.720027720027729,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 50,
+"buy": [
+157.63,
+163.04
+],
+"targets": [
+184.92,
+204.5
+],
+"stop": 152.22,
+"rr": 3.03
+},
+"t": {
+"rsi": 36.4,
+"dd20": -17.63,
+"chg5": -6.62,
+"chg20": -16.21,
+"ma20": 184.91599999999994,
+"volRatio": 0.9
+}
+},
+{
+"code": "LLY",
+"name": "일라이 릴리",
+"market": "NYSE",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 1240.34,
+"chgPct": -1.3277328305609348,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 53,
+"buy": [
+1184.94,
+1221.87
+],
+"targets": [
+1295.74,
+1332.67
+],
+"stop": 1112.74,
+"rr": 1.02
+},
+"t": {
+"rsi": 61.5,
+"dd20": -2.79,
+"chg5": 4.88,
+"chg20": 6.48,
+"ma20": 1182.536,
+"volRatio": 0.85
+}
+},
+{
+"code": "NVDA",
+"name": "엔비디아",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 217.09,
+"chgPct": 1.3823378321580426,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "지지선 관찰",
+"score": 58,
+"buy": [
+212.85,
+214.22
+],
+"targets": [
+227.66,
+240.05
+],
+"stop": 209.98,
+"rr": 3.97
+},
+"t": {
+"rsi": 38.6,
+"dd20": -10.8,
+"chg5": -4.08,
+"chg20": -4.53,
+"ma20": 227.66250000000005,
+"volRatio": 0.94
+}
+},
+{
+"code": "META",
+"name": "메타",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 705.44,
+"chgPct": -0.5484048327294766,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "눌림 관찰",
+"score": 55,
+"buy": [
+693.86,
+694.74
+],
+"targets": [
+733.98,
+779.82
+],
+"stop": 683.16,
+"rr": 3.56
+},
+"t": {
+"rsi": 39.2,
+"dd20": -9.54,
+"chg5": -5.05,
+"chg20": -4.83,
+"ma20": 733.9845,
+"volRatio": 0.75
+}
+},
+{
+"code": "GOOGL",
+"name": "알파벳(구글)",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 344.18,
+"chgPct": 1.0540532605185282,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "관망",
+"score": 49,
+"buy": [
+335.51,
+339.66
+],
+"targets": [
+345.87,
+364.17
+],
+"stop": 330.99,
+"rr": 1.26
+},
+"t": {
+"rsi": 53.3,
+"dd20": -5.49,
+"chg5": -2.42,
+"chg20": -3.04,
+"ma20": 345.8745,
+"volRatio": 0.79
+}
+},
+{
+"code": "ORCL",
+"name": "오라클",
+"market": "NYSE",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 129.59,
+"chgPct": 1.0605942447165395,
+"asOf": "2026-10-20 05:04 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 51,
+"buy": [
+123.22,
+126.4
+],
+"targets": [
+138.49,
+153.6
+],
+"stop": 120.03,
+"rr": 2.86
+},
+"t": {
+"rsi": 42.8,
+"dd20": -15.63,
+"chg5": -5.68,
+"chg20": -12.77,
+"ma20": 138.4895,
+"volRatio": 0.78
+}
+},
+{
+"code": "SCHD",
+"name": "슈왑 배당 ETF",
+"market": "NYSE Arca",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 34.24,
+"chgPct": -0.3202328966521062,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 49,
+"buy": [
+33.75,
+34.08
+],
+"targets": [
+34.73,
+35.05
+],
+"stop": 32.2,
+"rr": 0.47
+},
+"t": {
+"rsi": 74.2,
+"dd20": -0.67,
+"chg5": 2.95,
+"chg20": 1.54,
+"ma20": 33.227000000000004,
+"volRatio": 0.88
+}
+},
+{
+"code": "JPM",
+"name": "JP모건",
+"market": "NYSE",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 333.53,
+"chgPct": -1.8220887789944795,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "관망",
+"score": 49,
+"buy": [
+325.07,
+330.39
+],
+"targets": [
+334.73,
+352.1
+],
+"stop": 321.93,
+"rr": 1.21
+},
+"t": {
+"rsi": 47.7,
+"dd20": -5.27,
+"chg5": -0.23,
+"chg20": -5.26,
+"ma20": 334.72749999999996,
+"volRatio": 0.85
+}
+},
+{
+"code": "INTC",
+"name": "인텔",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 92.03,
+"chgPct": 2.426265998887045,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+89.19,
+89.29
+],
+"targets": [
+105.73,
+113.94
+],
+"stop": 86.45,
+"rr": 5.91
+},
+"t": {
+"rsi": 20.9,
+"dd20": -27.79,
+"chg5": -9.2,
+"chg20": -24.43,
+"ma20": 111.07449999999999,
+"volRatio": 0.97
+}
+},
+{
+"code": "MSFT",
+"name": "마이크로소프트",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 533.52,
+"chgPct": 0.8449106889708125,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 52,
+"buy": [
+516.31,
+527.78
+],
+"targets": [
+550.73,
+562.21
+],
+"stop": 485.48,
+"rr": 0.78
+},
+"t": {
+"rsi": 65.5,
+"dd20": -3.2,
+"chg5": -1.41,
+"chg20": 6.36,
+"ma20": 521.816,
+"volRatio": 0.81
+}
+},
+{
+"code": "PLTR",
+"name": "팔란티어",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 194.15,
+"chgPct": 4.3648873837553115,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추세 유지 · 눌림 매수 관찰",
+"score": 59,
+"buy": [
+182.16,
+190.15
+],
+"targets": [
+206.14,
+212.94
+],
+"stop": 178.03,
+"rr": 2.46
+},
+"t": {
+"rsi": 56.4,
+"dd20": -8.82,
+"chg5": -7.11,
+"chg20": 6.04,
+"ma20": 194.10350000000003,
+"volRatio": 1.03
+}
+},
+{
+"code": "SPY",
+"name": "SPDR S&P500 ETF",
+"market": "NYSE Arca",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 766.48,
+"chgPct": 0.4231903046184149,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 48,
+"buy": [
+758.79,
+762.94
+],
+"targets": [
+770.83,
+781.62
+],
+"stop": 755.25,
+"rr": 1.78
+},
+"t": {
+"rsi": 52.2,
+"dd20": -1.94,
+"chg5": -1.49,
+"chg20": -0.91,
+"ma20": 770.833,
+"volRatio": 0.92
+}
+},
+{
+"code": "ASML",
+"name": "ASML",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 1647.12,
+"chgPct": 0.3411472293971318,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "반등 관찰",
+"score": 62,
+"buy": [
+1594.03,
+1621.17
+],
+"targets": [
+1758.27,
+1854.71
+],
+"stop": 1568.08,
+"rr": 3.81
+},
+"t": {
+"rsi": 23.4,
+"dd20": -12.08,
+"chg5": -5.89,
+"chg20": -3.75,
+"ma20": 1758.267495,
+"volRatio": 0.85
+}
+},
+{
+"code": "TSM",
+"name": "TSMC",
+"market": "NYSE",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 420.22,
+"chgPct": 1.844356656406787,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 60,
+"buy": [
+407.13,
+413.85
+],
+"targets": [
+451.22,
+471.2
+],
+"stop": 400.76,
+"rr": 4.19
+},
+"t": {
+"rsi": 33.7,
+"dd20": -13.8,
+"chg5": -5.43,
+"chg20": -5.6,
+"ma20": 451.22349999999994,
+"volRatio": 1.16
+}
+},
+{
+"code": "MU",
+"name": "마이크론",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 904.9,
+"chgPct": 2.965272404533237,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "반등 관찰",
+"score": 56,
+"buy": [
+858,
+880.58
+],
+"targets": [
+1026.05,
+1099.44
+],
+"stop": 833.68,
+"rr": 4.4
+},
+"t": {
+"rsi": 29.8,
+"dd20": -18.38,
+"chg5": -8.51,
+"chg20": -13.32,
+"ma20": 1026.050005,
+"volRatio": 0.95
+}
+},
+{
+"code": "GLD",
+"name": "SPDR 금 ETF",
+"market": "NYSE Arca",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 379.69,
+"chgPct": -0.6073139446611364,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 48,
+"buy": [
+373.36,
+377.2
+],
+"targets": [
+383.39,
+399.62
+],
+"stop": 370.87,
+"rr": 1.84
+},
+"t": {
+"rsi": 46.3,
+"dd20": -5.26,
+"chg5": -0.64,
+"chg20": -4.69,
+"ma20": 383.3855,
+"volRatio": 0.66
+}
+},
+{
+"code": "TLT",
+"name": "iShares 20년+ 국채",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 79.46,
+"chgPct": -0.7370393504059991,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 52,
+"buy": [
+78.21,
+79.04
+],
+"targets": [
+80.71,
+81.94
+],
+"stop": 76.01,
+"rr": 0.8
+},
+"t": {
+"rsi": 62.5,
+"dd20": -3.03,
+"chg5": 1.81,
+"chg20": -2.86,
+"ma20": 78.64750000000001,
+"volRatio": 0.62
+}
+},
+{
+"code": "SMH",
+"name": "VanEck 반도체 ETF",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "etf",
+"cat": "미국 ETF",
+"flag": null,
+"price": 548.46,
+"chgPct": 1.6061801811815934,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "반등 관찰",
+"score": 63,
+"buy": [
+539.07,
+540.44
+],
+"targets": [
+588.54,
+612.59
+],
+"stop": 531.05,
+"rr": 5.61
+},
+"t": {
+"rsi": 27.5,
+"dd20": -14.23,
+"chg5": -7.2,
+"chg20": -7.98,
+"ma20": 598.6619999999999,
+"volRatio": 1.06
+}
+},
+{
+"code": "TSLA",
+"name": "테슬라",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 368.06,
+"chgPct": 3.760712674785749,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "중립",
+"score": 45,
+"buy": [
+350.91,
+362.34
+],
+"targets": [
+369.97,
+388.56
+],
+"stop": 340.16,
+"rr": 0.81
+},
+"t": {
+"rsi": 59.1,
+"dd20": -5.28,
+"chg5": -2.64,
+"chg20": -1.93,
+"ma20": 369.9715,
+"volRatio": 1.12
+}
+},
+{
+"code": "AMZN",
+"name": "아마존",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 262.45,
+"chgPct": 4.979999999999984,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 48,
+"buy": [
+252.52,
+259.14
+],
+"targets": [
+272.38,
+278.99
+],
+"stop": 241.42,
+"rr": 1.15
+},
+"t": {
+"rsi": 64.1,
+"dd20": -0.48,
+"chg5": 1.13,
+"chg20": 1.55,
+"ma20": 253.42600000000002,
+"volRatio": 1.57
+}
+},
+{
+"code": "AMD",
+"name": "AMD",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 538.05,
+"chgPct": 1.7588652482269485,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 59,
+"buy": [
+511.29,
+524.67
+],
+"targets": [
+604.96,
+645.1
+],
+"stop": 497.91,
+"rr": 4.33
+},
+"t": {
+"rsi": 32.5,
+"dd20": -18.29,
+"chg5": -9.46,
+"chg20": -12.59,
+"ma20": 606.5269999999999,
+"volRatio": 0.95
+}
+},
+{
+"code": "NFLX",
+"name": "넷플릭스",
+"market": "나스닥",
+"ccy": "USD",
+"kind": "stock",
+"cat": "미국 주식",
+"flag": null,
+"price": 69.85,
+"chgPct": -0.9641287395434683,
+"asOf": "2026-10-20 05:00 KST",
+"lastDate": "2026-10-19",
+"stale": false,
+"mcapJo": null,
+"ai": {
+"stance": "관망",
+"score": 47,
+"buy": [
+67.44,
+69.05
+],
+"targets": [
+70.14,
+73.76
+],
+"stop": 65.74,
+"rr": 0.76
+},
+"t": {
+"rsi": 48.4,
+"dd20": -5.3,
+"chg5": -1.08,
+"chg20": -4.78,
+"ma20": 70.13999999999999,
+"volRatio": 0.96
+}
+},
+{
+"code": "000660",
+"name": "SK하이닉스",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 1203000,
+"chgPct": -5.794831636648389,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 929.19,
+"ai": {
+"stance": "반등 관찰 · 변동성 큼",
+"score": 50,
+"buy": [
+1137000,
+1180000
+],
+"targets": [
+1438000,
+1566000
+],
+"stop": 1094000,
+"rr": 4.33
+},
+"t": {
+"rsi": 12.2,
+"dd20": -37.83,
+"chg5": -16.63,
+"chg20": -31.61,
+"ma20": 1640650.0,
+"volRatio": 0.98
+}
+},
+{
+"code": "402340",
+"name": "SK스퀘어",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 731000,
+"chgPct": -6.282051282051282,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 103.43,
+"ai": {
+"stance": "반등 관찰",
+"score": 57,
+"buy": [
+663000,
+697000
+],
+"targets": [
+902000,
+1004000
+],
+"stop": 628000,
+"rr": 4.33
+},
+"t": {
+"rsi": 12.9,
+"dd20": -39.13,
+"chg5": -25.71,
+"chg20": -26.9,
+"ma20": 1027750.0,
+"volRatio": 0.72
+}
+},
+{
+"code": "005380",
+"name": "현대차",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 307500,
+"chgPct": -5.674846625766872,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 63.48,
+"ai": {
+"stance": "분할 매수 관찰",
+"score": 55,
+"buy": [
+290500,
+303500
+],
+"targets": [
+342000,
+361500
+],
+"stop": 282500,
+"rr": 3.1
+},
+"t": {
+"rsi": 25.0,
+"dd20": -17.34,
+"chg5": -3.91,
+"chg20": -16.21,
+"ma20": 339000.0,
+"volRatio": 0.88
+}
+},
+{
+"code": "009150",
+"name": "삼성전기",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 1137000,
+"chgPct": -2.8205128205128216,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 88.74,
+"ai": {
+"stance": "반등 관찰",
+"score": 53,
+"buy": [
+1038000,
+1087000
+],
+"targets": [
+1386000,
+1535000
+],
+"stop": 988000,
+"rr": 4.33
+},
+"t": {
+"rsi": 27.5,
+"dd20": -33.08,
+"chg5": -23.54,
+"chg20": -13.67,
+"ma20": 1437000.0,
+"volRatio": 1.07
+}
+},
+{
+"code": "373220",
+"name": "LG에너지솔루션",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 412500,
+"chgPct": -4.513888888888884,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 94.3,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 51,
+"buy": [
+382000,
+402500
+],
+"targets": [
+443000,
+463000
+],
+"stop": 338000,
+"rr": 0.93
+},
+"t": {
+"rsi": 73.6,
+"dd20": -4.51,
+"chg5": 3.64,
+"chg20": 12.86,
+"ma20": 379250.0,
+"volRatio": 1.08
+}
+},
+{
+"code": "032830",
+"name": "삼성생명",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 235500,
+"chgPct": -3.6809815950920255,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 47.7,
+"ai": {
+"stance": "반등 관찰",
+"score": 60,
+"buy": [
+222000,
+228500
+],
+"targets": [
+271000,
+292500
+],
+"stop": 215000,
+"rr": 4.46
+},
+"t": {
+"rsi": 19.6,
+"dd20": -22.53,
+"chg5": -11.96,
+"chg20": -17.51,
+"ma20": 273625.0,
+"volRatio": 0.79
+}
+},
+{
+"code": "028260",
+"name": "삼성물산",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 273000,
+"chgPct": -4.210526315789476,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 46.46,
+"ai": {
+"stance": "반등 관찰",
+"score": 60,
+"buy": [
+260000,
+264000
+],
+"targets": [
+317000,
+343000
+],
+"stop": 251000,
+"rr": 5.02
+},
+"t": {
+"rsi": 17.1,
+"dd20": -29.18,
+"chg5": -13.2,
+"chg20": -21.33,
+"ma20": 330750.0,
+"volRatio": 0.68
+}
+},
+{
+"code": "105560",
+"name": "KB금융",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 160800,
+"chgPct": -1.167793484941615,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 56.75,
+"ai": {
+"stance": "반등 관찰",
+"score": 58,
+"buy": [
+154500,
+158400
+],
+"targets": [
+168400,
+180100
+],
+"stop": 152100,
+"rr": 2.73
+},
+"t": {
+"rsi": 28.3,
+"dd20": -11.45,
+"chg5": -1.23,
+"chg20": -8.53,
+"ma20": 168360.0,
+"volRatio": 1.01
+}
+},
+{
+"code": "000270",
+"name": "기아",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 111600,
+"chgPct": -3.7931034482758585,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 43.02,
+"ai": {
+"stance": "관망",
+"score": 46,
+"buy": [
+105500,
+109600
+],
+"targets": [
+113600,
+122500
+],
+"stop": 100600,
+"rr": 0.87
+},
+"t": {
+"rsi": 42.1,
+"dd20": -8.9,
+"chg5": 3.24,
+"chg20": -8.37,
+"ma20": 113585.0,
+"volRatio": 0.6
+}
+},
+{
+"code": "207940",
+"name": "삼성바이오로직스",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 1386000,
+"chgPct": -2.8731604765241725,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 60.09,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 48,
+"buy": [
+1290000,
+1354000
+],
+"targets": [
+1482000,
+1546000
+],
+"stop": 1118000,
+"rr": 0.79
+},
+"t": {
+"rsi": 51.8,
+"dd20": -3.82,
+"chg5": 15.4,
+"chg20": -1.84,
+"ma20": 1332350.0,
+"volRatio": 1.57
+}
+},
+{
+"code": "012450",
+"name": "한화에어로스페이스",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 794000,
+"chgPct": -12.26519337016575,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 45.79,
+"ai": {
+"stance": "반등 관찰",
+"score": 59,
+"buy": [
+737000,
+765000
+],
+"targets": [
+937000,
+1023000
+],
+"stop": 708000,
+"rr": 4.33
+},
+"t": {
+"rsi": 28.0,
+"dd20": -29.73,
+"chg5": -7.89,
+"chg20": -25.31,
+"ma20": 973450.0,
+"volRatio": 1.56
+}
+},
+{
+"code": "068270",
+"name": "셀트리온",
+"market": "코스피",
+"ccy": "KRW",
+"kind": "stock",
+"cat": "코스피",
+"flag": "",
+"price": 196500,
+"chgPct": -0.8577194752774964,
+"asOf": "2026-10-20 종가",
+"lastDate": "2026-10-20",
+"stale": false,
+"mcapJo": 45.13,
+"ai": {
+"stance": "추격 자제 · 눌림 대기",
+"score": 51,
+"buy": [
+187500,
+193500
+],
+"targets": [
+205500,
+211500
+],
+"stop": 170700,
+"rr": 0.76
+},
+"t": {
+"rsi": 75.6,
+"dd20": -2.72,
+"chg5": 9.35,
+"chg20": 10.89,
+"ma20": 182715.0,
+"volRatio": 1.56
+}
+}
+]
+}
