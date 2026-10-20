@@ -290,6 +290,27 @@ def main():
     cur_out = {code: {k: d[k] for k in keep if k in d} for code, d in docs.items() if d.get("curated")}
     with open(os.path.join(OUT, "data", "state", "curated.json"), "w") as f: json.dump(cur_out, f, ensure_ascii=False)
     with open(os.path.join(OUT, "data", "state", "market.json"), "w") as f: json.dump(market, f, ensure_ascii=False)
+    # brief for Claude's daily picks (small, committed by the workflow)
+    def bri(d):
+        a, t = d.get("ai") or {}, d.get("t") or {}
+        return dict(code=d["code"], name=d["name"], market=d.get("market"), ccy=d["ccy"], kind=d["kind"], cat=d.get("cat"), flag=d.get("flag"),
+                    price=d.get("price"), chgPct=d.get("chgPct"), asOf=d.get("asOf"), lastDate=d.get("lastDate"), stale=d.get("stale"),
+                    mcapJo=round(d["mcap"] / 1e12, 2) if d.get("mcap") else None,
+                    ai={k: a.get(k) for k in ("stance", "score", "buy", "targets", "stop", "rr")},
+                    t={k: t.get(k) for k in ("rsi", "dd20", "chg5", "chg20", "ma20", "volRatio")})
+    want = [d["code"] for d in cand]
+    want += [c for c, d in docs.items() if d["ccy"] == "USD" and d["kind"] != "lev" and d.get("ai") and d.get("t")]
+    want += [c for c, d in docs.items() if d["ccy"] == "KRW" and d["kind"] == "stock" and d.get("mcap") and d.get("ai") and d.get("t")
+             and d.get("rank") and d["rank"] <= 15]
+    for p in (market.get("picksHist") or {}).values():
+        want += [x["code"] for x in (p or {}).get("items", [])]
+    seen, items = set(), []
+    for c in want:
+        if c in docs and c not in seen and docs[c].get("ai"):
+            seen.add(c); items.append(bri(docs[c]))
+    brief = dict(builtAt=stamp, krxDate=newest.get("KRW"), usDate=newest.get("USD"), quotes=(market.get("latest") or {}).get("quotes", []),
+                 universe=market["universe"], items=items)
+    with open(os.path.join(W, "state", "brief.json"), "w") as f: json.dump(brief, f, ensure_ascii=False, indent=0)
     print(f"built {len(index)} items (KRX {len(by)}), curated {len(cur_out)}, krxDate {newest.get('KRW')}, usDate {newest.get('USD')}")
     sz = sum(os.path.getsize(os.path.join(OUT, "data", "h", f"{i}.json")) for i in range(NCH))
     print("index KB", os.path.getsize(os.path.join(OUT, "data", "index.json")) // 1024, "chunks KB", sz // 1024)
