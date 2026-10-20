@@ -1,5 +1,5 @@
 {
-"builtAt": "2026-10-21 06:09 KST",
+"builtAt": "2026-10-21 06:53 KST",
 "krxDate": "2026-10-20",
 "usDate": "2026-10-20",
 "quotes": [
@@ -60,7 +60,7 @@
 "chgPct": -0.02,
 "digits": 2,
 "unit": "",
-"at": "2026-10-21 06:09 KST",
+"at": "2026-10-21 06:15 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -72,7 +72,7 @@
 "chgPct": -0.29,
 "digits": 2,
 "unit": "",
-"at": "2026-10-21 06:09 KST",
+"at": "2026-10-21 06:15 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -91,21 +91,21 @@
 "id": "USDKRW",
 "name": "원·달러",
 "group": "FX",
-"value": 1325.55,
-"chg": -4.45,
-"chgPct": -0.33,
+"value": 1326.83,
+"chg": -3.17,
+"chgPct": -0.24,
 "digits": 2,
 "unit": "원",
-"at": "2026-10-21 06:01 KST",
+"at": "2026-10-21 06:50 KST",
 "note": "Yahoo Finance"
 },
 {
 "id": "WTI",
 "name": "WTI 유가",
 "group": "CMD",
-"value": 98.22,
-"chg": -5.44,
-"chgPct": -5.25,
+"value": 98.18,
+"chg": -5.48,
+"chgPct": -5.29,
 "digits": 2,
 "unit": "$",
 "at": "2026-10-21 05:59 KST",
@@ -152,9 +152,9 @@
 "id": "GOLD",
 "name": "금",
 "group": "CMD",
-"value": 4143.3,
-"chg": -16.8,
-"chgPct": -0.4,
+"value": 4142.5,
+"chg": -17.6,
+"chgPct": -0.42,
 "digits": 1,
 "unit": "$",
 "at": "2026-10-21 05:59 KST",
@@ -168,7 +168,7 @@
 "krxDate": "2026-10-19",
 "krxNewest": "2026-10-20",
 "usDate": "2026-10-20",
-"builtAt": "2026-10-21 06:09 KST"
+"builtAt": "2026-10-21 06:53 KST"
 },
 "items": [
 {
@@ -2266,7 +2266,7 @@
 ],
 "targets": [
 548.81,
-560.1
+560.11
 ],
 "stop": 485.57,
 "rr": 0.81
