@@ -1,5 +1,5 @@
 {
-"builtAt": "2026-10-24 06:09 KST",
+"builtAt": "2026-10-24 06:52 KST",
 "krxDate": "2026-10-23",
 "usDate": "2026-10-23",
 "quotes": [
@@ -60,7 +60,7 @@
 "chgPct": -0.21,
 "digits": 2,
 "unit": "",
-"at": "2026-10-24 06:09 KST",
+"at": "2026-10-24 06:15 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -72,7 +72,7 @@
 "chgPct": 0.44,
 "digits": 2,
 "unit": "",
-"at": "2026-10-24 06:09 KST",
+"at": "2026-10-24 06:15 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -96,7 +96,7 @@
 "chgPct": -0.18,
 "digits": 2,
 "unit": "원",
-"at": "2026-10-24 05:59 KST",
+"at": "2026-10-24 06:29 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -152,9 +152,9 @@
 "id": "GOLD",
 "name": "금",
 "group": "CMD",
-"value": 4009.4,
-"chg": -51.0,
-"chgPct": -1.26,
+"value": 4010.0,
+"chg": -50.4,
+"chgPct": -1.24,
 "digits": 1,
 "unit": "$",
 "at": "2026-10-24 05:59 KST",
@@ -168,7 +168,7 @@
 "krxDate": "2026-10-22",
 "krxNewest": "2026-10-23",
 "usDate": "2026-10-23",
-"builtAt": "2026-10-24 06:09 KST"
+"builtAt": "2026-10-24 06:52 KST"
 },
 "items": [
 {
