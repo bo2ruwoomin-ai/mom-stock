@@ -1,5 +1,5 @@
 {
-"builtAt": "2026-10-27 06:11 KST",
+"builtAt": "2026-10-27 06:53 KST",
 "krxDate": "2026-10-26",
 "usDate": "2026-10-26",
 "quotes": [
@@ -60,7 +60,7 @@
 "chgPct": 0.82,
 "digits": 2,
 "unit": "",
-"at": "2026-10-27 06:11 KST",
+"at": "2026-10-27 06:15 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -72,7 +72,7 @@
 "chgPct": 2.82,
 "digits": 2,
 "unit": "",
-"at": "2026-10-27 06:11 KST",
+"at": "2026-10-27 06:15 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -91,12 +91,12 @@
 "id": "USDKRW",
 "name": "원·달러",
 "group": "FX",
-"value": 1325.23,
-"chg": -0.76,
+"value": 1325.16,
+"chg": -0.83,
 "chgPct": -0.06,
 "digits": 2,
 "unit": "원",
-"at": "2026-10-27 06:11 KST",
+"at": "2026-10-27 06:49 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -168,7 +168,7 @@
 "krxDate": "2026-10-23",
 "krxNewest": "2026-10-26",
 "usDate": "2026-10-26",
-"builtAt": "2026-10-27 06:11 KST"
+"builtAt": "2026-10-27 06:53 KST"
 },
 "items": [
 {
