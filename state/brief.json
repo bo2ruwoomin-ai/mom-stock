@@ -1,5 +1,5 @@
 {
-"builtAt": "2026-10-31 06:17 KST",
+"builtAt": "2026-10-31 06:56 KST",
 "krxDate": "2026-10-30",
 "usDate": "2026-10-30",
 "quotes": [
@@ -60,7 +60,7 @@
 "chgPct": -2.86,
 "digits": 2,
 "unit": "",
-"at": "2026-10-31 06:16 KST",
+"at": "2026-10-31 06:15 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -168,7 +168,7 @@
 "krxDate": "2026-10-29",
 "krxNewest": "2026-10-30",
 "usDate": "2026-10-30",
-"builtAt": "2026-10-31 06:17 KST"
+"builtAt": "2026-10-31 06:56 KST"
 },
 "items": [
 {
