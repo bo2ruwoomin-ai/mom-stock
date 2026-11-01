@@ -1,5 +1,5 @@
 {
-"builtAt": "2026-11-01 02:58 KST",
+"builtAt": "2026-11-02 02:59 KST",
 "krxDate": "2026-10-30",
 "usDate": "2026-10-30",
 "quotes": [
@@ -91,12 +91,12 @@
 "id": "USDKRW",
 "name": "원·달러",
 "group": "FX",
-"value": 1335.1,
-"chg": -2.88,
-"chgPct": -0.22,
+"value": 1333.44,
+"chg": -4.54,
+"chgPct": -0.34,
 "digits": 2,
 "unit": "원",
-"at": "2026-10-31 12:30 KST",
+"at": "2026-11-01 23:23 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -168,7 +168,7 @@
 "krxDate": "2026-10-29",
 "krxNewest": "2026-10-30",
 "usDate": "2026-10-30",
-"builtAt": "2026-11-01 02:58 KST"
+"builtAt": "2026-11-02 02:59 KST"
 },
 "items": [
 {
