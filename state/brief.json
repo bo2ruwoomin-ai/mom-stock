@@ -1,5 +1,5 @@
 {
-"builtAt": "2026-11-03 20:04 KST",
+"builtAt": "2026-11-03 23:25 KST",
 "krxDate": "2026-11-03",
 "usDate": "2026-11-02",
 "quotes": [
@@ -79,48 +79,48 @@
 "id": "VIX",
 "name": "VIX(공포지수)",
 "group": "VOL",
-"value": 21.24,
-"chg": 0.09,
-"chgPct": 0.43,
+"value": 21.01,
+"chg": -0.14,
+"chgPct": -0.66,
 "digits": 2,
 "unit": "",
-"at": "2026-11-03 19:48 KST",
+"at": "2026-11-03 23:10 KST",
 "note": "Yahoo Finance"
 },
 {
 "id": "USDKRW",
 "name": "원·달러",
 "group": "FX",
-"value": 1344.78,
-"chg": 19.26,
-"chgPct": 1.45,
+"value": 1343.18,
+"chg": 17.66,
+"chgPct": 1.33,
 "digits": 2,
 "unit": "원",
-"at": "2026-11-03 20:03 KST",
+"at": "2026-11-03 23:25 KST",
 "note": "Yahoo Finance"
 },
 {
 "id": "WTI",
 "name": "WTI 유가",
 "group": "CMD",
-"value": 97.72,
-"chg": 1.26,
-"chgPct": 1.31,
+"value": 95.33,
+"chg": -1.13,
+"chgPct": -1.17,
 "digits": 2,
 "unit": "$",
-"at": "2026-11-03 19:53 KST",
+"at": "2026-11-03 23:15 KST",
 "note": "Yahoo Finance"
 },
 {
 "id": "US10Y",
 "name": "미 국채 10년",
 "group": "RATE",
-"value": 4.894,
-"chg": -0.035,
+"value": 4.919,
+"chg": 0.025,
 "chgPct": null,
 "digits": 3,
 "unit": "%",
-"at": "2026-11-03 04:59 KST",
+"at": "2026-11-03 23:10 KST",
 "note": "Yahoo Finance"
 },
 {
@@ -152,12 +152,12 @@
 "id": "GOLD",
 "name": "금",
 "group": "CMD",
-"value": 3912.0,
-"chg": -57.6,
-"chgPct": -1.45,
+"value": 3958.6,
+"chg": -11.0,
+"chgPct": -0.28,
 "digits": 1,
 "unit": "$",
-"at": "2026-11-03 19:53 KST",
+"at": "2026-11-03 23:15 KST",
 "note": "Yahoo Finance"
 }
 ],
@@ -168,7 +168,7 @@
 "krxDate": "2026-11-03",
 "krxNewest": "2026-11-03",
 "usDate": "2026-11-02",
-"builtAt": "2026-11-03 20:04 KST"
+"builtAt": "2026-11-03 23:25 KST"
 },
 "items": [
 {
